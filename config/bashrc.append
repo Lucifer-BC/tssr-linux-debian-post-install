@@ -1,5 +1,8 @@
 alias ll='ls -la --color=auto'
-PS1='\u@\h:\w\$ '
+# Personnalisation de l'invite bash (affiche utilisateur@machine:répertoire)
+# Bleu pour l'utilisateur@machine, Vert pour le chemin courant
+PS1='\[\033[1;34m\]\u@\h\[\033[0m\]:\[\033[1;32m\]\w\[\033[0m\]\$ '
+
 
 # === Ajouts TSSR ===
 
