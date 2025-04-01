@@ -1,4 +1,9 @@
-set linenumbers
-set softwrap
-set tabsize 4
-set mouse
+# === Configuration nano pour TSSR ===
+
+set linenumbers         # Affiche les numéros de lignes
+set constantshow        # Affiche position du curseur (ligne, colonne)
+set softwrap            # Retour à la ligne automatique
+set tabsize 4           # Tabulations = 4 espaces
+set autoindent          # Garde l’indentation quand on fait un saut de ligne
+set mouse               # Permet d’utiliser la souris dans nano (utile sur terminal GUI)
+include "/usr/share/nano/*.nanorc"  # Coloration syntaxique si les fichiers sont présents
