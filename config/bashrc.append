@@ -1,2 +1,13 @@
 alias ll='ls -la --color=auto'
 PS1='\u@\h:\w\$ '
+
+# === Ajouts TSSR ===
+
+# Alias utiles pour tech sys-réseau
+alias ll='ls -alF'
+alias gs='git status'
+alias ..='cd ..'
+
+# Message d’accueil
+echo -e "\n\033[1;32mBienvenue $USER !\033[0m"
+neofetch || echo "Neofetch non installé"
