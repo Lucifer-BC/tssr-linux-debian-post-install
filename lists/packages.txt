@@ -1,4 +1,12 @@
-nmap
-net-tools
-htop
-curl
+nmap             # scanner réseau
+net-tools        # ifconfig, netstat, etc.
+htop             # moniteur système amélioré
+curl             # requêtes web en terminal
+git              # pour les dépôts Git
+vim              # éditeur puissant
+ufw              # pare-feu simplifié
+fail2ban         # sécurité brute force SSH
+openssh-server   # serveur SSH
+gnupg            # chiffrement et signatures
+sudo             # élévation de droits
+neofetch         # info système jolie
